@@ -13,16 +13,16 @@ document.addEventListener('DOMContentLoaded', () => {
           <strong>AVAILABLE SYSTEM COMMANDS:</strong><br>
           - <span class="cyan-text">bio</span>      : Developer profile & background<br>
           - <span class="cyan-text">skills</span>   : Tech stack breakdown<br>
-          - <span class="cyan-text">projects</span> : Highlighted engineering projects<br>
-          - <span class="cyan-text">certs</span>    : freeCodeCamp & BitDegree certifications<br>
+          - <span class="cyan-text">projects</span> : Highlighted projects<br>
+          - <span class="cyan-text">certs</span>    : freeCodeCamp Certifications<br>
           - <span class="cyan-text">contact</span>  : Initialize interactive transmission terminal<br>
           - <span class="cyan-text">clear</span>    : Reset the terminal screen
         </div>`,
       bio: `
         <div class="term-card">
-          <h4 class="blue-text">DEVELOPER DOSSIER: JONATHAN PETERS</h4>
-          <p>3+ years of experience constructing accessible, high-performance web applications.</p>
-          <p>Currently expanding capabilities into Node.js, Express, Python, and dynamic AI-powered APIs.</p>
+          <h4 class="blue-text">FRONT END WEB DEVELOPER DOSSIER: JONATHAN PETERS</h4>
+          <p>4+ years of experience constructing accessible, responsive high-performance web applications.</p>
+          <p>Currently expanding my knowledge & capabilities into Node.js, Express, Python, and dynamic AI-powered Apps, APIs & Machine Learning</p>
         </div>`,
       skills: `
       <div class="term-card">
@@ -44,7 +44,6 @@ document.addEventListener('DOMContentLoaded', () => {
         <p>✔ freeCodeCamp: JavaScript Algorithms & Data Structures</p>
         <p>✔ freeCodeCamp: Front End Development Libraries</p>
         <p>✔ freeCodeCamp: Data Visualizations</p>
-        <p>✔ BitDegree: Front End Development</p>
       </div>`,
     contact: `
       <div class="term-card">
@@ -64,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Add command line
     const cmdLine = document.createElement('div');
     cmdLine.className = 'term-line prompt-intro';
-    cmdLine.innerHTML = `<span class="green-text">jpeters@ai-terminal</span>:<span class="blue-text">~</span>$ ${cleanCmd}`;
+    cmdLine.innerHTML = `<span class="green-text">enter code@cli-terminal</span>:<span class="blue-text">~</span>$ ${cleanCmd}`;
     terminalOutput.appendChild(cmdLine);
     if (cleanCmd === 'clear') {
       terminalOutput.innerHTML = '';
