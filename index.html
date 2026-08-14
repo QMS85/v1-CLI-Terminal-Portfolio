@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jonathan Peters |v1 CLI Terminal Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
+
+    <body>
+        <div class="version-selector">
+            <span>SYSTEM VIEWS:</span>
+           <!--<a href="/v1" class="v-btn">V1: Neural HUD</a>-->
+            <a href="/v2" class="v-btn active">V1 CLI Terminal Portfolio</a>
+            <!--<a href="/v3" class="v-btn">V3: Bento Grid</a>-->
+        </div>
+        <div class="ide-container">
+            <header class="ide-header">
+                <div class="window-controls">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+                <div class="ide-title"><i class="fa-solid fa-terminal"></i> jonathanpeters051@gmail.com:~</div>
+                <div class="system-time" id="sysTime">15:44:00 SAST</div>
+            </header>
+            <div class="ide-body">
+                <!-- SIDEBAR COMMAND NAVIGATION -->
+                <aside class="ide-sidebar">
+                    <div class="sidebar-title">COMMAND SYSTEM</div>
+                    <button class="cmd-link active" data-cmd="bio"><i class="fa-solid fa-user"></i> bio</button>
+                    <button class="cmd-link" data-cmd="skills"><i class="fa-solid fa-code"></i> skills</button>
+                    <button class="cmd-link" data-cmd="projects"><i class="fa-solid fa-folder-open"></i>
+                        projects</button>
+                    <button class="cmd-link" data-cmd="certs"><i class="fa-solid fa-certificate"></i> certs</button>
+                    <button class="cmd-link" data-cmd="contact"><i class="fa-solid fa-paper-plane"></i> contact</button>
+                    <button class="cmd-link" data-cmd="help"><i class="fa-solid fa-circle-question"></i> help</button>
+                </aside>
+                <!-- TERMINAL DISPLAY & INPUT -->
+                <main class="terminal-main">
+                    <div id="terminalOutput" class="terminal-output">
+                        <div class="term-line prompt-intro">
+                            <span class="green-text">system@jonathan-peters</span>:<span class="blue-text">~</span>$
+                            init_portfolio
+                            --v1-cli-terminal-mode
+                        </div>
+                        <div class="term-line response">
+                            [SYS_OK] Initializing Neural Shell for <strong>Jonathan Peters</strong>...<br>
+                            [SYS_OK] Front-End Web Developer | (3+ Years Exp)<br>
+                            [SYS_INFO] Type <span class="cyan-text">'help'</span> or click sidebar commands to navigate.
+                        </div>
+                    </div>
+                    <div class="terminal-input-row">
+                        <span class="prompt-symbol">jonathanpeters051@gmail.com:~$</span>
+                        <input type="text" id="terminalInput"
+                            placeholder="Type a command (e.g. 'skills', 'projects')..." autofocus>
+                    </div>
+                </main>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
