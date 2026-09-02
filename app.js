@@ -88,9 +88,9 @@ document.addEventListener('DOMContentLoaded', () => {
     contact: `
       <div class="term-card">
         <h4 class="green-text">CONTACT</h4>
-        <p><a href="mailto:DJJonnasIsAlsoAWebDev@proton.me" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-envelope"></i> DJJonnasIsAlsoAWebDev@proton.me</a></p>
-        <p><a href="https://www.linkedin.com/in/2jonathanpeters" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i> LinkedIn</a></p>
-        <p><a href="https://www.facebook.com/2jonathanpeters" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i> Facebook</a></p>
+        <p><a href="mailto:jonathanpeters051@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-envelope"></i> Send An Email</a></p>
+        <p><a href="https://www.linkedin.com/in/2jonathanpeters" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i> Connect On LinkedIn</a></p>
+        <p><a href="https://www.facebook.com/2jonathanpeters" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i> Follow On Facebook</a></p>
       </div>`
   };
 
