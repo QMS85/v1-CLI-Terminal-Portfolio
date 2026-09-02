@@ -26,15 +26,18 @@ document.addEventListener('DOMContentLoaded', () => {
         <h4 class="blue-text">FRONT END WEB DEVELOPER DOSSIER: JONATHAN PETERS</h4>
         <p>4+ years building accessible, responsive, high-performance web interfaces from design to production.</p>
         <p>Currently expanding skills in Node.js, TypeScript, and modern web tooling.</p>
-        <p>Contact: <a href="mailto:DJJonnasIsAlsoAWebDev@proton.me" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-envelope"></i> DJJonnasIsAlsoAWebDev@proton.me</a></p>
-        <p>Social: <a href="https://www.linkedin.com/in/2jonathanpeters" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i> LinkedIn</a> • <a href="https://www.facebook.com/2jonathanpeters" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i> Facebook</a> • <a href="https://www.twitter.com/DJJonnas85" target="_blank" rel="noopener noreferrer"><i class="fab fa-x-twitter"></i> X</a></p>
+        <p>Contact: <a href="mailto:jonathanpeters051@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-envelope"></i> Send An Email</a></p>
+        <p>Social: <a href="https://www.linkedin.com/in/2jonathanpeters" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i> LinkedIn</a> 
+        • <a href="https://www.facebook.com/2jonathanpeters" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i> Facebook</a> 
+        • <a href="https://www.twitter.com/DJJonnas85" target="_blank" rel="noopener noreferrer"><i class="fab fa-x-twitter"></i> X</a></p>
       </div>`,
 
     skills: `
       <div class="term-card">
         <h4 class="green-text">TECHNICAL CAPABILITIES</h4>
-        <p><strong>Front-End:</strong> HTML5, CSS3, JavaScript (ES6+), Responsive Web Design, Figma-to-HTML</p>
-        <p><strong>Frameworks/Tools:</strong> React, SASS, Git, GitHub Pages, npm</p>
+        <p><strong>Languages> HTML5, CSS3, JavaScript (ES6+), Node JS, Python, TypeScript, Jquery, Bootstrap</p>
+        <p><strong>Tools:</strong> Git, GitHub CLI, VS Code </p>
+        <p><strong>A.I Tools: Github Co-Pilot, Microsoft Co-Pilot, Google Gemini, Groq, Replit, Base 44, 
         <p><strong>Also:</strong> Familiarity with Node.js, Express and deployment workflows</p>
       </div>`,
 
