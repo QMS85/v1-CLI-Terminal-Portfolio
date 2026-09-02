@@ -546,7 +546,7 @@ class TerminalPortfolio {
     downloadCV() {
         // Create a sample CV PDF using a data URL or link to actual CV
         // For production, replace this with actual CV file hosting
-        const cvUrl = 'https://github.com/QMS85/v1-CLI-Terminal-Portfolio/raw/main/Jonathan_Peters_CV.pdf';
+        const cvUrl = 'https://github.com/QMS85/v1-CLI-Terminal-Portfolio/raw/main/UpdatedCVOfJPeters.pdf';
         
         // Try to download, if file doesn't exist, show message
         fetch(cvUrl, { method: 'HEAD' })
